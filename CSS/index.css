@@ -14,7 +14,10 @@
 nav {
     width: 73%; 
     padding: 1%;
+    justify-content: right;
 }
+
+
 
 ul {
     width: 50%;
@@ -40,6 +43,7 @@ li {
 
 footer {
     background-color:#373738;
+    justify-content:right;
     
 }
 
@@ -49,9 +53,10 @@ ul {
     
 }
 
-p { font-family:montserrat;
+p { font-family:'Montserrat';
     font-size: 20px;
     display: inline-block;
+    font-weight:bold;
 }
 
 button {
@@ -63,3 +68,9 @@ button {
     display:block;
 
 }
+
+h4 {
+    font-weight:normal;
+    display:inline-block;
+}
+
